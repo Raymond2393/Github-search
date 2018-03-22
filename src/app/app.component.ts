@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Http, Response } from '@agular/http';
+import {Http, Response } from '@angular/http';
 import {environment} from '../environments/environment';
 
 @Component({
@@ -19,9 +19,10 @@ constructor(private http:Http){}
       (response:Response)=>{
         const userData=response.json();
         this.githubData=userData;
-
-
         
+
+
+
       }
     )
   }
