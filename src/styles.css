@@ -1,3 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Concert+One|Fredoka+One|Zilla+Slab+Highlight');
+img{
+  height: 200px;
+  width: 200px;
+  background-image: url("./assets/ray.jpeg");
+  background-size: contain;
+}
+*{
+font-family: monospace;
+}
+
+
+#input{
+  height:50px;
+}
+
+#display{
+height: 600px;
+}
+h1{
+  font-family: monospace;
+  font-size: 100px;
+  text-align: center;
+}
+
+.jumbotron{
+  background-color: lightblue;
+}
+
+.navbar-header{
+  text-align: center;
+  color: blue;
+}

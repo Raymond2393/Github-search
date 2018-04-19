@@ -9,21 +9,32 @@
           <input placeholder="Enter Username" [(ngModel)]="userName">
           <button (click)="userLookup()">SEARCH</button>
         </div>
+        <img src="{{githubData.avatar_url}}" alt="" class="img-responsive" style="float:left; margin-top: 5%;">
+
+      <div class="information" style="float:right">
+
+        <h4>{{githubData.name}}</h4>
+        <h4>Location:{{githubData.location}}</h4>
+        <h4>Repositories: {{githubData.public_repos}}</h4>
+        <h4>Followers: {{githubData.followers}}</h4>
+        <h4>Following: {{githubData.following}}</h4>
+        <h4><a [href]="githubData.html_url">Visit Github Page</a></h4>
+      </div>
+
       </div>
     </div>
     <div class="col-sm-6">
       <div class="well" id="display">
-        <img [src]="avatarUrl">
-        <div class="information" style="float:right">
-          <h3>{{githubData.name}}</h3>
+        <img [src]="ray.jpeg">
 
-            <h4>Location:{{githubData.location}}</h4>
-            <h4>Repositories: {{githubData.public_repos}}</h4>
-            <h4>Followers: {{githubData.followers}}</h4>
-            <h4>Following: {{githubData.following}}</h4>
-            <h4><a [href]="githubData.html_url">Visit Github Page</a></h4>
 
-        </div>
+
+            <h4>Name:</h4>
+            <h4>Raymond Okwenda</h4>
+            <h4>Bio</h4>
+            <h4>I am a Fullstack Developer</h4>
+
+
       </div>
     </div>
   </div>
