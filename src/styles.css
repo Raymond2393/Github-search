@@ -7,9 +7,7 @@ img{
   background-image: url("./assets/ray.jpeg");
   background-size: contain;
 }
-*{
-font-family: monospace;
-}
+
 
 
 #input{
@@ -17,10 +15,9 @@ font-family: monospace;
 }
 
 #display{
-height: 600px;
+height: 250px;
 }
 h1{
-  font-family: monospace;
   font-size: 100px;
   text-align: center;
 }
@@ -32,4 +29,15 @@ h1{
 .navbar-header{
   text-align: center;
   color: blue;
+}
+body{
+  background-image: url(assets/03.jpg);
+  background-size: cover;
+
+}
+.information{
+  color: white;
+}
+h2 a{
+  color: white;
 }
